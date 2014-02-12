@@ -1,3 +1,23 @@
+ucf (3.0025+nmu3) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * No longer hardcode debconf templates file location
+    Closes: #615931
+  * Fix pending l10n issues. Debconf translations:
+    - Slovak (Slavko).  Closes: #639443
+    - Polish (Michał Kułach).  Closes: #661480
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 05 Apr 2012 08:25:42 +0200
+
+ucf (3.0025+nmu2) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix pending l10n issues. Debconf translations:
+    - Brazilian Portuguese (Flamarion Jorge).  Closes: #594786
+    - Dutch; (Jeroen Schot).  Closes: #622789
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 15 Apr 2011 08:27:12 +0200
+
 ucf (3.0025+nmu1) unstable; urgency=low
 
   * Non-maintainer upload.
