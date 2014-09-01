@@ -2,21 +2,22 @@
 # Slovenské preklady pre balík ucf.
 # Copyright (C) 2011 THE ucf'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the ucf package.
-# Slavko <linux@slavino.sk>, 2011.
+# Slavko <linux@slavino.sk>, 2011, 2014.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: ucf 3.0025+nmu2\n"
+"Project-Id-Version: ucf 3.0028\n"
 "Report-Msgid-Bugs-To: ucf@packages.debian.org\n"
-"POT-Creation-Date: 2009-10-13 08:14-0500\n"
-"PO-Revision-Date: 2011-08-27 11:52+0200\n"
+"POT-Creation-Date: 2014-05-07 01:28-0700\n"
+"PO-Revision-Date: 2014-05-09 18:58+0200\n"
 "Last-Translator: Slavko <linux@slavino.sk>\n"
-"Language-Team: Slovak <debian-l10n-slovak@lists.debian.org>\n"
+"Language-Team: slovenčina <linux@slavino.sk>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
 #. Type: title
 #. Description
@@ -97,10 +98,10 @@ msgstr "Čo chcete urobiť so zmeneným konfiguračným súborom ${BASENAME}?"
 #. Description
 #: ../templates:3002 ../templates:4002
 msgid ""
-"A new version of configuration file ${FILE} is available, but the version "
-"installed currently has been locally modified."
+"A new version (${NEW}) of configuration file ${FILE} is available, but the "
+"version installed currently has been locally modified."
 msgstr ""
-"Je dostupná nová verzia konfiguračného súboru ${FILE}, ale aktuálne "
+"Je dostupná nová verzia (${NEW}) konfiguračného súboru ${FILE}, ale aktuálne "
 "nainštalovaná verzia bola lokálne upravená."
 
 #. Type: note
@@ -134,3 +135,10 @@ msgid ""
 msgstr ""
 "Súbor „${dest_file}.${ERR_SUFFIX}” má záznam o neúspešnom zlúčení "
 "konfiguračného súboru."
+
+#~ msgid ""
+#~ "A new version of configuration file ${FILE} is available, but the version "
+#~ "installed currently has been locally modified."
+#~ msgstr ""
+#~ "Je dostupná nová verzia konfiguračného súboru ${FILE}, ale aktuálne "
+#~ "nainštalovaná verzia bola lokálne upravená."
