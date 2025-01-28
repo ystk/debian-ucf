@@ -1,3 +1,13 @@
+ucf (3.0030+deb8u1) jessie-security; urgency=high
+
+  * Non-maintainer by the Debian ELTS team.
+  * Prevent a potential command-injection vulnerability by initialising a
+    variable that is passed, unfiltered, to the "eval" shell function.
+    (Closes: #1089015)
+  * Add a debian/salsa-ci.yml.
+
+ -- Chris Lamb <lamby@debian.org>  Thu, 16 Jan 2025 16:58:16 +0000
+
 ucf (3.0030) unstable; urgency=low
 
   * Updated german translations. (Closes: #748975).
